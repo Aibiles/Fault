@@ -1,10 +1,8 @@
-#define _USE_MATH_DEFINES
 #include <stdio.h>
-#include <math.h>
+#include "test.h"
 
-int main(void)
-{
-	int r = 2;
-	printf("%f\n", M_PI*pow(r,2));
-	return 0;
+int main() {
+    printf("a = %d\n", a);
+    printf("add(3, 4) = %d\n", add(3, 4));
+    return 0;
 }
